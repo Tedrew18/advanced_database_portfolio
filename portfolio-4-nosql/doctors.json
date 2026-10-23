@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 101,
+    "firstName": "Amina",
+    "lastName": "Bello",
+    "licenseNo": "MDCN-10101",
+    "department": "General Practice",
+    "email": "a.bello@stjude.example",
+    "phone": "08010000101"
+  },
+  {
+    "_id": 102,
+    "firstName": "Chidi",
+    "lastName": "Okafor",
+    "licenseNo": "MDCN-10102",
+    "department": "Cardiology",
+    "email": "c.okafor@stjude.example",
+    "phone": "08010000102"
+  },
+  {
+    "_id": 103,
+    "firstName": "Ngozi",
+    "lastName": "Eze",
+    "licenseNo": "MDCN-10103",
+    "department": "Paediatrics",
+    "email": "n.eze@stjude.example",
+    "phone": "08010000103"
+  }
+]

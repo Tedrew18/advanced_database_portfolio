@@ -1,0 +1,59 @@
+[
+  {
+    "_id": 1,
+    "firstName": "Tunde",
+    "lastName": "Adeyemi",
+    "dateOfBirth": { "$date": "1980-03-14T00:00:00Z" },
+    "gender": "M",
+    "contact": { "phone": "08020000001", "email": "t.adeyemi@mail.example" },
+    "address": { "area": "Wuse II", "city": "Abuja" },
+    "allergies": ["Penicillin"],
+    "chronicConditions": ["Hypertension"]
+  },
+  {
+    "_id": 2,
+    "firstName": "Zainab",
+    "lastName": "Musa",
+    "dateOfBirth": { "$date": "1992-07-22T00:00:00Z" },
+    "gender": "F",
+    "contact": { "phone": "08020000002", "email": "z.musa@mail.example" },
+    "address": { "area": "Garki", "city": "Abuja" },
+    "allergies": [],
+    "chronicConditions": [],
+    "insurance": { "provider": "AXA Mansard", "policyNo": "AXA-221" }
+  },
+  {
+    "_id": 3,
+    "firstName": "Emeka",
+    "lastName": "Nwosu",
+    "dateOfBirth": { "$date": "1965-11-02T00:00:00Z" },
+    "gender": "M",
+    "contact": { "phone": "08020000003" },
+    "address": { "area": "Maitama", "city": "Abuja" },
+    "allergies": ["Aspirin"],
+    "chronicConditions": ["Atrial fibrillation"]
+  },
+  {
+    "_id": 4,
+    "firstName": "Hauwa",
+    "lastName": "Ibrahim",
+    "dateOfBirth": { "$date": "2018-05-30T00:00:00Z" },
+    "gender": "F",
+    "contact": { "phone": "08020000004" },
+    "address": { "area": "Gwarinpa", "city": "Abuja" },
+    "allergies": [],
+    "chronicConditions": [],
+    "guardian": { "name": "Amina Ibrahim", "phone": "08020000044" }
+  },
+  {
+    "_id": 5,
+    "firstName": "Grace",
+    "lastName": "Okoro",
+    "dateOfBirth": { "$date": "1999-01-09T00:00:00Z" },
+    "gender": "F",
+    "contact": { "phone": "08020000005", "email": "g.okoro@mail.example" },
+    "address": { "area": "Kubwa", "city": "Abuja" },
+    "allergies": ["Sulfa drugs"],
+    "chronicConditions": []
+  }
+]

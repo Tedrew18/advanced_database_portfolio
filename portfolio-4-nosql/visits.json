@@ -1,0 +1,130 @@
+[
+  {
+    "appointmentId": 1,
+    "patientId": 1,
+    "doctor": { "doctorId": 101, "name": "Dr Amina Bello", "department": "General Practice" },
+    "appointmentDate": { "$date": "2026-10-15T10:00:00Z" },
+    "reason": "Headache and dizziness",
+    "status": "Completed",
+    "consultation": {
+      "diagnosis": "Hypertension (Stage 1)",
+      "notes": "BP 150/95. Lifestyle advice given.",
+      "vitals": { "systolic": 150, "diastolic": 95, "heartRate": 78 }
+    },
+    "prescriptions": [
+      { "medication": "Amlodipine", "strength": "5 mg", "form": "Tablet", "dosage": "1 tablet", "frequency": "Once daily", "durationDays": 30 },
+      { "medication": "Paracetamol", "strength": "500 mg", "form": "Tablet", "dosage": "2 tablets", "frequency": "As needed, max 4 times daily", "durationDays": 5 }
+    ],
+    "labResults": [
+      { "test": "Fasting Blood Glucose", "value": 5.2, "unit": "mmol/L", "referenceRange": "3.9 - 5.5", "status": "Completed" }
+    ]
+  },
+  {
+    "appointmentId": 2,
+    "patientId": 2,
+    "doctor": { "doctorId": 101, "name": "Dr Amina Bello", "department": "General Practice" },
+    "appointmentDate": { "$date": "2026-10-15T11:00:00Z" },
+    "reason": "Routine check-up",
+    "status": "Cancelled"
+  },
+  {
+    "appointmentId": 3,
+    "patientId": 3,
+    "doctor": { "doctorId": 102, "name": "Dr Chidi Okafor", "department": "Cardiology" },
+    "appointmentDate": { "$date": "2026-10-15T10:00:00Z" },
+    "reason": "Palpitations",
+    "status": "Completed",
+    "consultation": {
+      "diagnosis": "Suspected atrial fibrillation",
+      "notes": "ECG requested.",
+      "vitals": { "systolic": 138, "diastolic": 86, "heartRate": 112 }
+    },
+    "prescriptions": [
+      { "medication": "Bisoprolol", "strength": "2.5 mg", "form": "Tablet", "dosage": "1 tablet", "frequency": "Once daily", "durationDays": 30 }
+    ],
+    "labResults": [
+      { "test": "Haemoglobin", "value": null, "unit": "g/dL", "referenceRange": "12 - 17", "status": "Ordered" }
+    ]
+  },
+  {
+    "appointmentId": 4,
+    "patientId": 4,
+    "doctor": { "doctorId": 103, "name": "Dr Ngozi Eze", "department": "Paediatrics" },
+    "appointmentDate": { "$date": "2026-10-16T09:00:00Z" },
+    "reason": "Child immunisation",
+    "status": "Scheduled"
+  },
+  {
+    "appointmentId": 90001,
+    "patientId": 1,
+    "doctor": { "doctorId": 101, "name": "Dr Amina Bello", "department": "General Practice" },
+    "appointmentDate": { "$date": "2026-11-12T09:00:00Z" },
+    "reason": "Hypertension follow-up",
+    "status": "Completed",
+    "consultation": {
+      "diagnosis": "Hypertension (Stage 1)",
+      "notes": "BP improving on amlodipine.",
+      "vitals": { "systolic": 138, "diastolic": 88, "heartRate": 74 }
+    },
+    "prescriptions": [
+      { "medication": "Amlodipine", "strength": "5 mg", "form": "Tablet", "dosage": "1 tablet", "frequency": "Once daily", "durationDays": 30 }
+    ],
+    "labResults": [
+      { "test": "Serum Creatinine", "value": 82, "unit": "umol/L", "referenceRange": "60 - 110", "status": "Completed" }
+    ]
+  },
+  {
+    "appointmentId": 90002,
+    "patientId": 3,
+    "doctor": { "doctorId": 102, "name": "Dr Chidi Okafor", "department": "Cardiology" },
+    "appointmentDate": { "$date": "2026-11-20T10:30:00Z" },
+    "reason": "Cardiology review",
+    "status": "Completed",
+    "consultation": {
+      "diagnosis": "Atrial fibrillation (confirmed)",
+      "notes": "ECG confirms AF. Anticoagulation started.",
+      "vitals": { "systolic": 132, "diastolic": 82, "heartRate": 88 }
+    },
+    "prescriptions": [
+      { "medication": "Bisoprolol", "strength": "2.5 mg", "form": "Tablet", "dosage": "1 tablet", "frequency": "Once daily", "durationDays": 30 },
+      { "medication": "Apixaban", "strength": "5 mg", "form": "Tablet", "dosage": "1 tablet", "frequency": "Twice daily", "durationDays": 30 }
+    ],
+    "labResults": [
+      { "test": "Haemoglobin", "value": 14.1, "unit": "g/dL", "referenceRange": "12 - 17", "status": "Completed" }
+    ]
+  },
+  {
+    "appointmentId": 90003,
+    "patientId": 5,
+    "doctor": { "doctorId": 101, "name": "Dr Amina Bello", "department": "General Practice" },
+    "appointmentDate": { "$date": "2026-09-02T14:00:00Z" },
+    "reason": "Recurrent headaches",
+    "status": "Completed",
+    "consultation": {
+      "diagnosis": "Migraine",
+      "notes": "Triggers discussed. Sulfa allergy noted.",
+      "vitals": { "systolic": 118, "diastolic": 76, "heartRate": 70 }
+    },
+    "prescriptions": [
+      { "medication": "Paracetamol", "strength": "500 mg", "form": "Tablet", "dosage": "2 tablets", "frequency": "As needed, max 4 times daily", "durationDays": 5 }
+    ],
+    "labResults": []
+  },
+  {
+    "appointmentId": 90004,
+    "patientId": 4,
+    "doctor": { "doctorId": 103, "name": "Dr Ngozi Eze", "department": "Paediatrics" },
+    "appointmentDate": { "$date": "2026-09-10T09:30:00Z" },
+    "reason": "Cough and runny nose",
+    "status": "Completed",
+    "consultation": {
+      "diagnosis": "Upper respiratory infection",
+      "notes": "Rest and fluids.",
+      "vitals": { "heartRate": 96 }
+    },
+    "prescriptions": [
+      { "medication": "Paracetamol", "strength": "120 mg/5 ml", "form": "Syrup", "dosage": "5 ml", "frequency": "Every 6 hours as needed", "durationDays": 3 }
+    ],
+    "labResults": []
+  }
+]
