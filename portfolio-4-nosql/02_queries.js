@@ -13,7 +13,7 @@ db = db.getSiblingDB('stjude_his_nosql');
 
 // ---------------------------------------------------------------------
 // Q1. A patient's full history in ONE read, no joins (patient 1, Tunde)
-//     In MySQL this needed a 5-table JOIN (Portfolio 2, Q5).
+//     In MySQL this needed a join across many tables (Portfolio 1, Test 8 joined eight).
 // ---------------------------------------------------------------------
 db.visits.find(
   { patientId: 1 },
