@@ -17,7 +17,7 @@
 | **Major data stored** | Patients, doctors, departments, appointments, consultations, medications, prescriptions, laboratory tests and results |
 | **Key operations** | Book an appointment without double-booking a doctor; cancel an appointment and free the slot; record a diagnosis; issue a prescription with several medications; order a laboratory test and record its result; retrieve a patient's full history |
 
-All data in this repository is fictional. No real patient data was used.
+All data in this repository are fabricated. No real patient data was used.
 
 ## Repository structure
 
