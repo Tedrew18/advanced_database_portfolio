@@ -1,14 +1,14 @@
-# Advanced Database Systems Portfolio (MIT 8103)
+# Dagogo_Faith_301914344
 
-**Student:** Dagogo Faith Ogan
-**Matric number:** Dagogo_Faith_301914344
+**Name:** Dagogo Faith Ogan
+**Matric number:** 2026/A/MIT/0126
 **Programme:** Master of Information Technology, MIVA Open University
 **Course:** MIT 8103 Advanced Database Systems, 2026/2027 First Semester Continuous Assessment
 **Assessment:** Individual Practical Database Portfolio
 
 ## Selected case study
 
-**St. Jude Clinical Health Information System (HIS)**, a simulated private clinic in Abuja. All five portfolio activities use this one case study.
+**Hospital/Clinical system (St. Jude Clinical Health Information System (HIS))**, a simulated private clinic in Abuja. All five portfolio activities use this one case study.
 
 | | |
 |---|---|
